@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+  version="3.1"
+  metadata-complete="true">
+
+  <servlet>
+  <servlet-name>ParameterizedContructorController</servlet-name>
+  <servlet-class>com.sample.ParameterizedContructorController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>ParameterizedContructorController</servlet-name>
+  <url-pattern>/ParameterizedContructorController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>ValidateErrorMessageController</servlet-name>
+  <servlet-class>com.sample.ValidateErrorMessageController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>ValidateErrorMessageController</servlet-name>
+  <url-pattern>/ValidateErrorMessageController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>LogoutErrorMessageController</servlet-name>
+  <servlet-class>com.sample.LogoutErrorMessageController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>LogoutErrorMessageController</servlet-name>
+  <url-pattern>/LogoutErrorMessageController</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <servlet>
+  <servlet-name>FirstController</servlet-name>
+  <servlet-class>com.sample.FirstController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>FirstController</servlet-name>
+  <url-pattern>/FirstController</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+  <servlet-name>SecondController</servlet-name>
+  <servlet-class>com.sample.SecondController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>SecondController</servlet-name>
+  <url-pattern>/SecondController</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+  <servlet-name>ThirdController</servlet-name>
+  <servlet-class>com.sample.ThirdController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>ThirdController</servlet-name>
+  <url-pattern>/ThirdController</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+  <servlet-name>FourthController</servlet-name>
+  <servlet-class>com.sample.FourthController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>FourthController</servlet-name>
+  <url-pattern>/FourthController</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+  <servlet-name>FifthController</servlet-name>
+  <servlet-class>com.sample.FifthController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>FifthController</servlet-name>
+  <url-pattern>/FifthController</url-pattern>
+  </servlet-mapping>
+  
+ 
+ 
+  <servlet>
+  <servlet-name>HelloWorldController</servlet-name>
+  <servlet-class>com.sample.HelloWorldController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>HelloWorldController</servlet-name>
+  <url-pattern>/HelloWorldController</url-pattern>
+  </servlet-mapping>
+  
+  
+ 
+ 
+  <servlet>
+  <servlet-name>LifeCycleController</servlet-name>
+  <servlet-class>com.sample.LifeCycleController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>LifeCycleController</servlet-name>
+  <url-pattern>/LifeCycleController</url-pattern>
+  </servlet-mapping>
+
+
+ 
+ 
+ 
+ <servlet>
+  <servlet-name>LoginController</servlet-name>
+  <servlet-class>com.sample.LoginController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>LoginController</servlet-name>
+  <url-pattern>/LoginController</url-pattern>
+  </servlet-mapping>
+  
+  
+ 
+ 
+  <servlet>
+  <servlet-name>LoginFormController</servlet-name>
+  <servlet-class>com.sample.LoginFormController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>LoginFormController</servlet-name>
+  <url-pattern>/LoginFormController</url-pattern>
+  </servlet-mapping>
+  
+ 
+ 
+ 
+  <servlet>
+  <servlet-name>RefreshDateController</servlet-name>
+  <servlet-class>com.sample.RefreshDateController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>RefreshDateController</servlet-name>
+  <url-pattern>/RefreshDateController</url-pattern>
+  </servlet-mapping>
+  
+ 
+ 
+ 
+ 
+  <servlet>
+  <servlet-name>BrowserHeaderController</servlet-name>
+  <servlet-class>com.sample.BrowserHeaderController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>BrowserHeaderController</servlet-name>
+  <url-pattern>/BrowserHeaderController</url-pattern>
+  </servlet-mapping>
+ 
+
+  
+  <servlet>
+  <servlet-name>VerifyLoginController</servlet-name>
+  <servlet-class>com.sample.VerifyLoginController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>VerifyLoginController</servlet-name>
+  <url-pattern>/VerifyLoginController</url-pattern>
+  </servlet-mapping>	
+
+  
+  
+  <servlet>
+  <servlet-name>Verify</servlet-name>
+  <servlet-class>com.sample.Verify</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Verify</servlet-name>
+  <url-pattern>/Verify</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+  <servlet-name>WelcomeController</servlet-name>
+  <servlet-class>com.sample.WelcomeController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>WelcomeController</servlet-name>
+  <url-pattern>/WelcomeController</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+  <servlet-name>LogoutController</servlet-name>
+  <servlet-class>com.sample.LogoutController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>LogoutController</servlet-name>
+  <url-pattern>/LogoutController</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+  <servlet-name>LoginCookieController</servlet-name>
+  <servlet-class>com.sample.LoginCookieController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>LoginCookieController</servlet-name>
+  <url-pattern>/LoginCookieController</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>LogoutCookieController</servlet-name>
+  <servlet-class>com.sample.LogoutCookieController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>LogoutCookieController</servlet-name>
+  <url-pattern>/LogoutCookieController</url-pattern>
+  </servlet-mapping>
+
+
+ <servlet>
+  <servlet-name>VerifyLoginCookieController</servlet-name>
+  <servlet-class>com.sample.VerifyLoginCookieController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>VerifyLoginCookieController</servlet-name>
+  <url-pattern>/VerifyLoginCookieController</url-pattern>
+  </servlet-mapping>
+  
+  <listener>
+  	<listener-class>com.sample.MyServletContextListener</listener-class>
+  </listener>
+
+
+<listener>
+  	<listener-class>com.sample.MyServletContextAttributeListener</listener-class>
+  </listener>
+
+</web-app>
