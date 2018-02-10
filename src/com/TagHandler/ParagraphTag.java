@@ -14,7 +14,10 @@ public class ParagraphTag extends SimpleTagSupport{
 	public void doTag() throws JspException, IOException {
 	
 		JspWriter out = getJspContext().getOut();
-		int i=0,countis=0,counta=0,countthe=0;
+		int i=0;
+		int countis=0;
+		int counta=0;
+		int countthe=0;
 		
 		StringWriter sw = new StringWriter();
 		StringBuffer body = new StringBuffer();
