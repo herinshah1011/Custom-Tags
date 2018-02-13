@@ -7,51 +7,50 @@ import javax.servlet.jsp.JspException;
 import javax.servlet.jsp.JspWriter;
 import javax.servlet.jsp.tagext.SimpleTagSupport;
 
-import jdk.nashorn.internal.runtime.linker.InvokeByName;
 
-public class ParagraphTag extends SimpleTagSupport{
+public class WordCountTagHandler extends SimpleTagSupport{
 	
 	public void doTag() throws JspException, IOException {
 	
 		JspWriter out = getJspContext().getOut();
 		int i=0;
-		int countis=0;
-		int counta=0;
-		int countthe=0;
+		int count_is=0;
+		int count_a=0;
+		int count_the=0;
 		
-		StringWriter sw = new StringWriter();
+		StringWriter stringwriter = new StringWriter();
 		StringBuffer body = new StringBuffer();
 		
-		getJspBody().invoke(sw);
+		getJspBody().invoke(stringwriter);
 		
-		body.append(sw.getBuffer());
-		String bodyContent = body.toString();
+		body.append(stringwriter.getBuffer());
+		String bodycontent = body.toString();
 		
-		String [] words = bodyContent.split(" ");
+		String [] words = bodycontent.split(" ");
 		
 		for(i=0;i<words.length;i++)
 		{
 			if("is".equals(words[i].toLowerCase()))
 			{
-				countis++;
+				count_is++;
 			}
 			if("a".equals(words[i].toLowerCase()))
 			{
-				counta++;
+				count_a++;
 			}
 			if("the".equals(words[i].toLowerCase()))
 			{
-				countthe++;
+				count_the++;
 			}
 		}
 		
-		out.println(bodyContent);
+		out.println(bodycontent);
 		out.println("<br><br><br>");
-		out.println("Total Number of 'is' = "+countis);
+		out.println("Total Number of 'is' = "+count_is);
 		out.println("<br>");
-		out.println("Total Number of 'a' = "+counta);
+		out.println("Total Number of 'a' = "+count_a);
 		out.println("<br>");
-		out.println("Total Number of 'the' = "+countthe);
+		out.println("Total Number of 'the' = "+count_the);
 	}
 
 }

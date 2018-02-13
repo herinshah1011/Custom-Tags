@@ -7,12 +7,12 @@
   <tlib-version>1.0</tlib-version>  
   <jsp-version>1.2</jsp-version>  
   <short-name>simple</short-name>  
-  <uri>C:\apache-tomcat-8.5.20\webapps\sample application\WEB-INF\tld\mytags.tld</uri>  
+  <uri>mytags</uri>  
   <description>A simple tab library</description>  
   
   <tag>  
     <name>oddeven</name>  
-    <tag-class>com.TagHandler.OddEvenTag</tag-class>  
+    <tag-class>com.TagHandler.OddEvenTagHandler</tag-class>  
     <body-content>empty</body-content>
     <attribute>  
     	<name>number</name>  
@@ -21,8 +21,8 @@
    </tag>
   
   <tag>  
-    <name>paragraph</name>  
-    <tag-class>com.TagHandler.ParagraphTag</tag-class> 
+    <name>wordcount</name>  
+    <tag-class>com.TagHandler.WordCountTagHandler</tag-class> 
   	<body-content>scriptless</body-content>  
   </tag>  
 

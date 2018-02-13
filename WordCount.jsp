@@ -1,10 +1,10 @@
-<%@ taglib uri="C:\apache-tomcat-8.5.20\webapps\sample application\WEB-INF\tld\mytags.tld" prefix = "h" %>
+<%@ taglib uri="mytags" prefix = "h" %>
 <html>
 <head>
 <title>Counting 'is' 'a' 'the'</title>
 </head>
 <body>
-	<h:paragraph>
+	<h:wordcount>
 		Although fondly called 'Amdavad' by the locals here, there is a very interesting legend associated with the 
 		city of Ahmedabad. Towards the beginning of the fifteenth century, the state of Gujarat was ruled by the Muslim
 		Muzaffarid dynasty. Legend has it that once when the Sultan, Ahmed Shah was standing on the banks of river Sabarmati
@@ -12,6 +12,6 @@
 		advisor and asked for an explanation. The wise man said that, it was the uniqueness of the land that cultivated such 
 		rare qualities in people. After having heard this, the Sultan got so impressed that he decided to set his capital in 
 		that same location and called it "Ahmedabad" after himself.
-		</h:paragraph>
+		</h:wordcount>
 </body>
 </html>
